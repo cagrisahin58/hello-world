@@ -1,0 +1,10 @@
+{
+  "name": "@kurbaga/ai-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kurbağa AI Microservice",
+  "scripts": {
+    "dev": "python main.py",
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8000"
+  }
+}
